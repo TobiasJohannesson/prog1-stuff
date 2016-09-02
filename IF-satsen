@@ -24,7 +24,7 @@ namespace ConsoleApplication4
             Console.Write("Mata in ålder: "); string inmatat = Console.ReadLine();
             int tal = int.Parse(inmatat);
             if (tal <= 12) { Console.WriteLine("Färg: vit"); }
-            else if (tal >12 && tal <= 18) { Console.WriteLine("Färg: grön"); }
+            else if (tal >12 && tal <= 18) { Console.WriteLine("Färg: grön"); } 
             else if (tal > 18 && tal <= 25) { Console.WriteLine("Färg: röd"); }
             else if (tal > 25 && tal <= 99) { Console.WriteLine("Färg: blå"); }
             else { Console.WriteLine("Ogiltig ålder!"); }
