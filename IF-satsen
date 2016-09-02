@@ -1,0 +1,54 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Övning1
+            /*
+            Console.WriteLine("Skriv in mönsterdjup(mm):");
+            string inmatat = Console.ReadLine();
+            double tal = double.Parse(inmatat); 
+            if(tal < 1.6) { Console.WriteLine("Olagligt däck! Du har " + ( 1.6 - tal ) + "mm kvar till lagligt däck.");}
+            else { Console.WriteLine("Lagligt däck!"); }
+            */
+
+            //Övning2
+            /*
+            Console.Write("Mata in ålder: "); string inmatat = Console.ReadLine();
+            int tal = int.Parse(inmatat);
+            if (tal <= 12) { Console.WriteLine("Färg: vit"); }
+            else if (tal >12 && tal <= 18) { Console.WriteLine("Färg: grön"); }
+            else if (tal > 18 && tal <= 25) { Console.WriteLine("Färg: röd"); }
+            else if (tal > 25 && tal <= 99) { Console.WriteLine("Färg: blå"); }
+            else { Console.WriteLine("Ogiltig ålder!"); }
+            */
+
+            //Övning3
+            /*
+            Console.Write("Mata in tal1: "); string inmatat1 = Console.ReadLine();
+            Console.Write("Mata in tal2: "); string inmatat2 = Console.ReadLine();
+            decimal tal1 = decimal.Parse(inmatat1); 
+            decimal tal2 = decimal.Parse(inmatat2);
+            if (tal1 > tal2) { Console.WriteLine("Tal1 var störst:" + tal1); }
+            else if (tal1 == tal2) { Console.WriteLine("Talen var lika!"); }
+            else { Console.WriteLine("Tal2 var störst:" + tal2); }
+            */
+
+            //Övning4
+            /*
+            Console.Write("Mata in ett tal: "); string inmatat = Console.ReadLine();
+            int tal = int.Parse(inmatat);
+            if ((tal % 7) == 0) { Console.WriteLine("Talet är jämt delbart med 7"); }
+            else { Console.WriteLine("Talet är ej jämt delbart med 7. Resten blir " + (tal % 7));}
+            */
+        }
+    }
+}
+
