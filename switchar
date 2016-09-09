@@ -1,0 +1,64 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace @switch
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /*SwitchSatser är övningar från Csharpskolan
+             * Tobias Johannesson den 9 sept 2016
+             */
+            //Övning1
+            /*
+                Console.WriteLine("Skriv in ett tal från 1-4");
+                int inmatat = int.Parse(Console.ReadLine());
+                Console.Write("Du skrev: ");
+                switch (inmatat)
+                {
+                    case 1: Console.WriteLine("Ett"); break;
+                    case 2: Console.WriteLine("Två"); break;
+                    case 3: Console.WriteLine("Tre"); break;
+                    case 4: Console.WriteLine("Fyra"); break;
+                    default: Console.WriteLine("in ett ogiltigt värde!"); break;
+                }
+            */
+            //Övning2
+            /*
+            Console.WriteLine("Var vill du gå? N, S, E, W");
+            String inmatat = Console.ReadLine();
+
+            switch (inmatat)
+            {
+                case "N": Console.WriteLine("You walk north");     break;
+                case "S": Console.WriteLine("You travel south");   break;
+                case "E": Console.WriteLine("You wander east");    break;
+                case "W": Console.WriteLine("You stroll west");    break;
+                default: Console.WriteLine("I don't understand!"); break;
+            }
+            */
+            //Övning3
+            /*
+            Console.WriteLine("Välj ett tal");
+            double tal1 = double.Parse(Console.ReadLine());
+            Console.WriteLine("Välj ett annat tal");
+            double tal2 = double.Parse(Console.ReadLine());
+            Console.WriteLine("Välj + - * /");
+            string inmatat = Console.ReadLine();
+
+            switch(inmatat) {
+                case "+": Console.WriteLine((tal1 + tal2)); break;
+                case "-": Console.WriteLine((tal1 - tal2)); break;
+                case "*": Console.WriteLine((tal1 * tal2)); break;
+                case "/": Console.WriteLine((tal1 / tal2)); break;
+                default:  Console.WriteLine("Ogiltigt!");   break;
+            }
+            */
+
+        }
+    }
+}
