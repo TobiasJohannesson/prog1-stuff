@@ -1,0 +1,58 @@
+# prog1-stuff
+Programmering
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //uppgift 1
+            /*
+            DateTime date = DateTime.Now;
+            Console.WriteLine(date.ToString("d"));
+            */
+
+            //uppgift2
+            /*
+            double x = Math.PI;
+            double cirkel = 4 * 4 * x;
+            Console.WriteLine(cirkel.ToString("F4"));
+            */
+
+            //uppgift3
+            /*
+            int tal = 1000000000
+            Console.WriteLine("{0:0,0,0,0}", tal);
+            */
+
+            //uppgift4
+            /*
+            double value = 123.69;
+            
+            var x = (value  - Math.Truncate(value)) *100 ;
+            if (x >= 50)
+            {
+                value = value - 1;
+            }
+            Console.WriteLine("Det blir ### {0: 0} + kr och {1: 0.} öre ###" , value, x);
+            */
+
+            //uppgift5
+            // ej färdig
+            Console.WriteLine("Skriv in ditt personnummer yyyymmddkkkk");
+            int persn = int.Parse(Console.ReadLine());
+            int y = persn / 100000000;
+            Console.WriteLine("Ditt personnummer är {0 }", y);
+
+
+        }
+    }
+}
+
