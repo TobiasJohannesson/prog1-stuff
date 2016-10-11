@@ -1,0 +1,128 @@
+# prog1-stuff
+Programmering
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //for loopar
+            //övning1 sida2
+            /*Console.Write("Mata in ett start tal: "); int inmatat1 = int.Parse(Console.ReadLine());
+              Console.Write("Mata in ett stopp tal: "); int inmatat2 = int.Parse(Console.ReadLine());
+              Console.Write("Mata in steg: ");          int inmatat3 = int.Parse(Console.ReadLine());
+
+
+              for (int x = inmatat1; x <= inmatat2; x = x + inmatat3){
+                  Console.WriteLine(x);
+              }
+              */
+
+            //övning3 sida2
+            /*
+            Console.Write("Mata in ett tal: "); int inmatat1 = int.Parse(Console.ReadLine());
+            int y = 0;
+            for (int x=1; x <= inmatat1; x++ )
+            {
+                y = y + x;
+                if(x==inmatat1){
+                Console.WriteLine(y);
+                }
+                else{     
+                }
+
+
+            }
+            */
+
+            //övning4 sida2
+            /*
+            int y = 0;
+            Console.Write("Mata in ett heltal: "); int inmatat1 = int.Parse(Console.ReadLine());
+            for (int x=1; x <= inmatat1; x++ )
+            {
+
+                if (x % 3 == 0 && x % 7 == 0) {
+                    Console.WriteLine("Talet " + x + " är jämt delbart med både 3 och 7");
+                    y = 1;
+                }
+                else if (inmatat1 < 21 && x == 1){
+                    Console.WriteLine("Inga tal hittades");     
+                }
+            }
+             */
+
+            //övning5 sida2
+            /*
+            Console.Write("Skriv in ett heltal"); int inmatat1 = int.Parse(Console.ReadLine());
+            int x = 0; int y = 1; 
+            x = x + y; 
+          
+            for (int z=0; z<inmatat1;  )
+            {
+                z++;
+                if (z%2==0)
+                {
+                    Console.WriteLine(y);
+                    y = x + y;
+                }
+                else
+                {
+                    Console.WriteLine(x);
+                    x = x + y;
+                }
+
+            }
+            */
+
+            //övning6 sida 2
+/*
+double x = 0;
+            Console.Write("Ange ett tal: "); double inmatat = double.Parse(Console.ReadLine());
+            for( ; (x*x*x) <= inmatat; x = x + 0.1)
+            {
+            }
+
+            x = x - 0.1;
+            double y = x + 0.05;
+            x = x - 0.05;
+            
+
+            if ((x * x * x) <= inmatat  && (y * y * y) >= inmatat )
+            {
+                x = x + 0.05;
+                Console.WriteLine("Kubikroten är ca: " + x);
+            }
+            else
+            {
+                x = x + 0.15;
+                Console.WriteLine("Kubikroten är ca: " + x);
+
+            }
+*/
+
+//övning 7 sida 2 
+//ej färdig
+            Console.Write("Ange ett heltal som ska undersökas: ");
+            int inmatat = int.Parse(Console.ReadLine());
+
+            for (var x = 1; x == inmatat; x++)
+            {
+                if (inmatat % x == 0 && (x != inmatat || x != 1))
+                {
+                    Console.WriteLine("Talet är inte ett primtal!");
+                }
+                else
+                {
+                    Console.WriteLine("Talet är ett primtal!");
+
+                }
+
+
+
