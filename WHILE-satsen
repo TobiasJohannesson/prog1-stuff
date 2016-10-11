@@ -1,0 +1,149 @@
+# prog1-stuff
+Programmering
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //for loopar
+            //övning1 sida1
+            /*
+            int n = 0;
+            while(n <= 100)
+            {
+                Console.WriteLine(n);
+            }
+            */
+            //övning2 sida1
+            /*
+            int n = 123;
+            int x = 0;
+            int inmatat = 1;
+            while (inmatat != n)
+            {
+                inmatat = int.Parse(Console.ReadLine());
+                if (inmatat != n)
+                {
+                    Console.WriteLine("Fel lösen!");
+                    x++;
+                }
+            }
+            Console.WriteLine("Rätt lösen, du skrev fel lösen: " + x + " gånger.");
+            */
+
+            //övning1 sida2
+            /*
+            int i = 1;
+            while ( i <= 100)
+                    {
+                        Console.WriteLine(i);
+                       i++;
+                    }
+                    Console.ReadLine();
+            */
+
+            //övning2 sida 2
+            /*
+            int i = 10;
+            while ( i >= 1)
+            {
+                Console.WriteLine(i);
+                i--;
+            }
+
+            Console.ReadLine();
+            */
+
+            //övning3 sida2
+            /*
+            while (true)
+            {
+                Console.WriteLine("Du kan inte stoppa mig!");
+            }
+            */
+            //övning4 sida2
+            /*
+            int x = 42;
+            int y = 0;
+            Console.WriteLine("Gissa talet!");
+            int inmatat = int.Parse(Console.ReadLine());
+            while (x != inmatat)
+            {
+                if (x > inmatat)
+                {
+                    Console.WriteLine("För litet!");
+                    y++;
+                }
+                if (x < inmatat)
+                {
+                    Console.WriteLine("För Stort!");
+                    y++;
+                }
+                inmatat = int.Parse(Console.ReadLine());
+            }
+
+
+            Console.WriteLine("Rätt svar! Det tog " + y + " försök");
+            */
+
+            //övning5 sida2
+            /*
+            int x = 0;
+            int y = 1;
+            while (y < 1000000)
+            {
+                Console.Write(" " + y);
+                x = x + y;
+
+                Console.Write(" " +  x);
+                y = x + y;
+            }
+            */
+
+            //övning6 sida2
+            /*
+            int years = -1;
+            Console.Write("Ange saldo på konto <kr>: "); double start = double.Parse(Console.ReadLine());
+            Console.Write("Ange ränta <%>: ");           double step =  double.Parse(Console.ReadLine());
+            Console.Write("Ange mål <kr>: ");            double goal =  double.Parse(Console.ReadLine());
+
+            while (start <= goal)
+            {
+              
+                start = start * (1 + (step/100));
+                years++;
+               
+            }
+
+            Console.WriteLine("Det tog " + years + " år innan saldot nådde " + goal);
+            */
+
+            //övning7 sida2
+            /*
+            int x = 2016;
+            while(x < 2050)
+            {
+                Console.WriteLine(x + " är ett skottår!");
+                x = x + 4;
+            }
+            */
+  //övning8 sida2
+  //ej färdig
+            DateTime.Now.Year
+            DateTime - objekt
+                TimeSpan
+                DateTime
+                DayOfWeek
+
+        }
+    }
+}
+
