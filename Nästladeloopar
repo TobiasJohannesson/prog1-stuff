@@ -1,0 +1,193 @@
+# prog1-stuff
+Programmering
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace nästlade
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //ovning1
+            /* 
+            for (int i = 0; i < 10; i++)
+            {
+                for (int x = 0; x < 10; x++)
+                {
+                    if (x % 2 == 0 || x == 0)
+                    {
+                        Console.Write("o");
+                    }
+                    else
+                    {
+                        Console.Write("#");
+                    }
+                }
+
+                Console.WriteLine();
+            }
+            */
+
+            //övning2
+            /*
+            int y = 0;
+            for (int i = 1; i < 11; i++)
+            {
+                y = i;
+                for (int x = 1; x < 11; x++)
+                {
+                    y++;
+                    if (y%2 == 0 )
+                    {
+                        Console.Write("o");
+                    }
+                    else
+                    {
+                        Console.Write("#");
+                    }
+
+                }
+
+                Console.WriteLine();
+            }
+            */
+
+            //övning3
+            /*
+            int y = 10;
+            for (int i = y; i > 0; i--)
+            {
+                y = i;
+                for (; i > 0; i--)
+                {
+
+
+                    Console.Write("#");
+
+
+                }
+
+                Console.WriteLine();
+                i = y;
+            }
+            */
+
+            //övning4
+            /*
+            for (int i = 10; i > 0; i--)
+            {
+                int x = 10 - i;
+                for (int y = 0; y<10 ; y++)
+                {
+                    if (y >= x)
+                    {                      
+                        Console.Write("*");
+                    }
+                    else
+                    {
+                        Console.Write(".");
+                    }
+
+                }
+
+                Console.WriteLine();
+              
+            }
+            */
+
+            //övning5
+            /*
+            int x = 7;
+            for(int i=0; i<7; i++){
+                x--;
+                for(int y=0; y<7; y++)
+                {
+
+                    if (i == y)
+                    {
+                        Console.Write("*");
+                    }
+                    else if(x == y)
+                    {
+                        Console.Write("*");
+                    }
+                    else
+                    {
+                        Console.Write(".");
+                    }
+
+
+                }
+                Console.WriteLine();
+            }
+            */
+
+            //övning6
+            /*
+            int x = 7;
+            for (int i = 0; i < 7; i++)
+            {
+                x--;
+                for (int y = 0; y < 7; y++)
+                {
+
+                    if (i >= y && y <= x)
+                    {
+                        Console.Write("*");
+                    }
+                    else if (i <= y && y >= x)
+                    {
+                        Console.Write("*");
+                    }
+
+                    else
+                    {
+                        Console.Write(".");
+                    }
+
+
+                }
+                Console.WriteLine();
+            }
+            */
+
+            //ovning7
+            /*
+            int x = 9;
+            int z = 0;
+            int t = 0;
+            for (int i = x; i > 0; i--)
+            {
+                
+                for (int y = 0; y < x; y++)
+                {
+                    
+                    if (y > (x/2)+z || y < (x / 2) - z  )
+                    {
+                        Console.Write(".");
+                    }
+                    else
+                    {
+                        Console.Write("*");
+                    }
+                }
+                t++;
+                if (t < i)
+                    z++;
+                else
+                    z--;
+
+                Console.WriteLine();
+            }
+            */
+
+
+
+        }
+    }
+}
